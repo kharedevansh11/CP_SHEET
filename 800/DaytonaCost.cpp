@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <set>
 #include <iostream>
 #include<queue>
 using namespace std;
@@ -25,24 +26,21 @@ void seive(ll n){
 
 }
 
-void solve(){
-    ll n,m;
-    cin>>n>>m;
-    string x,s;
-    cin>>x;
-    cin>>s;
-    ll ans = 0;
-    string original = x;
 
-     for (int i = 0; i < 6; ++i) {
-        if (x.find(s) != -1) {
-            cout << i << endl;
+void solve(){
+    ll n,k;
+    cin>>n>>k;
+    vll a;
+    inp(a,n);
+    for(int i=0;i<n;i++){
+        if(a[i]==k){
+            yes();
             return;
         }
-        x = x + x;
-        // cout<<x<<endl;
     }
-    cout << -1 << endl;
+    no();
+
+    
 }
 int main() {
     ios_base::sync_with_stdio(false);
