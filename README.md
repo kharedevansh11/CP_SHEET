@@ -1,0 +1,1 @@
+This repository serves as a collection of my competitive programming practice and solutions. I regularly participate in contests and solve various problems, and I use this space to document and organize all the problems I work on. It allows me to keep track of my progress and maintain a structured record of the solutions I've implemented.
